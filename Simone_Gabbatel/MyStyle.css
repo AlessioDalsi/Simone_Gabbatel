@@ -126,9 +126,8 @@ body {
 .borderSection {
     padding: 1em;
     margin-top: 2px;
-    border-style: double;
+    border-top: double;
     border-color: gray;
-    border-radius: initial;
     
 }
 /* TITLE SECTION */
