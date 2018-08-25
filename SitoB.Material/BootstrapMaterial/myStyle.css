@@ -1,0 +1,52 @@
+.body {
+    background-color: #464646;
+}
+
+/* NAVBAR STYLE */
+.ColorNav {
+    background-color: #DADAD9;
+}
+
+/* DECORATION */
+
+.borderSection {
+    padding: 1em;
+    margin-top: 2px;
+    border-top: double;
+    border-color: gray;
+
+}
+/* TITLE SECTION */
+
+.borderTitle {
+    padding: 1em;
+    margin-top: 2px;
+    border-style: none;
+    border-color: gray;
+    border-radius: inherit;
+}
+
+.descriptionTitle {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant-position: inherit;
+}
+
+.description {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant-position: inherit;
+}
+
+/* SECTION PROPERTIES / TEXT CARD PROPERTIES */
+
+.section {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+
+
+

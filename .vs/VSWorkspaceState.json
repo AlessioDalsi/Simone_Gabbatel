@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Simone_Gabbatel"
+    "\\Simone_Gabbatel",
+    "\\SitoB.Material",
+    "\\SitoB.Material\\BootstrapMaterial"
   ],
-  "SelectedNode": "\\Simone_Gabbatel\\Index.html",
+  "SelectedNode": "\\SitoB.Material\\BootstrapMaterial\\index.html",
   "PreviewInSolutionExplorer": false
 }
