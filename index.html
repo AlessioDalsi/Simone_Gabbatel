@@ -3,6 +3,7 @@
 <html lang="en">
 
 <head>
+    s
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -12,16 +13,14 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- Javascript -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <!-- Your custum styles -->
-    <link href="myStyle.css" rel="stylesheet" />
-    <!-- Carousel function -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  
+    <link href="myStyle.css" rel="stylesheet" />
+ 
+
 
 
 </head>
@@ -29,53 +28,49 @@
 <body class="body">
 
     <!-- START NAVBAR -->
+    <div class="bg">
+        <nav class="navbar navbar-dark navbar-expand-lg positionStyle">
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="#">Navbar</a>
+            <!-- Hamburgher Buttons (for resize) -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="basicExampleNav">
 
-    <nav class="navbar navbar-expand-lg navbar-light ColorNav">
-        <!-- Navbar brand -->
-        <a class="navbar-brand" href="#">Navbar</a>
-        <!-- Hamburgher Buttons (for resize) -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
-                aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+                <!-- Links -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Bio
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#"> I miei video </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Le mie foto </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#"> Progetti speciali </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- END NAVBAR -->
+        <!-- START CAROUSEL -->
 
-        <!-- Collapsible content -->
-        <div class="collapse navbar-collapse" id="basicExampleNav">
+    </div>
 
-            <!-- Links -->
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        Bio
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="#"> I miei video </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"> Le mie foto </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="#"> Progetti speciali </a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <br />
-    <br />
-    <br />
-    <br />
-
-    <!-- END NAVBAR -->
     <!-- START CARDS -->
     <!-- TITLE -->
-    <br />
-    <br />
-    <div class="container-fluid title">
+
+    <div class="container-fluid title backgroundDiv">
         <div>
-            <h2 class="descriptionTitle borderTitle">MY WORKS</h2>
+            <h2 class="descriptionTitle">MY WORKS</h2>
             <br />
             <br />
             <p class="description">I miei lavori consistono in video che cerco di realizzare nel miglior modo possibile, seguendo anche quello che è il mio stile</p>
@@ -85,13 +80,13 @@
         <br />
     </div>
     <!-- END TITLE -->
-    <div class="container-fluid borderSection">
+    <div class="container-fluid backgroundDiv">
         <br />
         <br />
         <br />
         <br />
 
-        <div class="card-deck">
+        <div class="card-deck backgroundDiv">
 
             <!-- Start Card -->
             <div class="card mb-4">
@@ -200,28 +195,10 @@
     <br />
     <br />
 
-    <div class="container-fluid borderSection">
-        <div>
-            <!-- TITLE -->
-            <br />
-            <br />
-            <br />
-            <div class="container-fluid title">
-
-                <div>
-
-                    <h2 class="descriptionTitle borderTitle">LE MIE FOTO</h2>
-                    <br />
-                    <br />
-                    <p class="description">Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.</p>
-                </div>
-                <br />
-                <br />
-                <br />
-            </div>
-        </div>
+    <div class="container-fluid">
+       
         <!-- END TITLE -->
-        <div class="card-deck">
+        <div class="card-deck backgroundDiv">
 
             <!-- Start Card -->
             <div class="card mb-4">
@@ -240,7 +217,7 @@
                         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Info
                         </button>
-                        <div class="dropdown-menu container-fluid borderSection" aria-labelledby="dropdownMenuButton">
+                        <div class="dropdown-menu container-fluid " aria-labelledby="dropdownMenuButton">
                             <p class="infoCard">
                                 Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh
                                 onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.
@@ -264,7 +241,7 @@
                         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Info
                         </button>
-                        <div class="dropdown-menu container-fluid borderSection" aria-labelledby="dropdownMenuButton">
+                        <div class="dropdown-menu container-fluid " aria-labelledby="dropdownMenuButton">
                             <p class="infoCard">
                                 Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh
                                 onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.
@@ -288,7 +265,7 @@
                         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Info
                         </button>
-                        <div class="dropdown-menu container-fluid borderSection" aria-labelledby="dropdownMenuButton">
+                        <div class="dropdown-menu container-fluid" aria-labelledby="dropdownMenuButton">
                             <p class="infoCard">
                                 Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh
                                 onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.
@@ -312,7 +289,7 @@
                         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Info
                         </button>
-                        <div class="dropdown-menu container-fluid borderSection" aria-labelledby="dropdownMenuButton">
+                        <div class="dropdown-menu container-fluid" aria-labelledby="dropdownMenuButton">
                             <p class="infoCard">
                                 Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh
                                 onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.
@@ -322,7 +299,6 @@
                 </div>
             </div>
             <!-- End Card -->
-
         </div>
     </div>
     <br />
@@ -330,7 +306,7 @@
     <!-- END IMAGE CARD -->
     <!-- FOOTER -->
 
-    <footer class="page-footer font-small">
+    <footer class="page-footer font-small backgroundDiv">
 
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3 copyrightText">
@@ -416,22 +392,6 @@
             <span class="carousel-control-next-icon"></span>
         </a>
     </div>
-
-
-
-    <style>
-
-        .wow {
-            background-image: url("file:\\\C:\Users\matte\Desktop\SimoneGabatel\Content\presentation.png");
-        }
-    </style>
-
-    <div class="wow">
-        <div class="container-fluid" style="background-color: yellow">
-            <!--  <img src="C:\Users\matte\Desktop\SimoneGabatel\Content\presentation.png" alt="Card image cap">-->
-        </div>
-    </div>
-
 
 </body>
 </html>
