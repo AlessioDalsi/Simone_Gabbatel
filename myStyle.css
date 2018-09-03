@@ -88,35 +88,80 @@ body, html {
     align-content: center;
     align-items: center;
 }
+/* INFORMATION CAROUSEL */
 
-/* INITIAL NAV */
+.carousel-content {
+    color: white;
+    display: flex;
+    align-items: center;
+}
 
-.bg {
-    /* The image used */
-    background-image: url("Content/banner3.jpg");
-    /* Full height */
-    height: 100%;
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: cover; /* for IE9+, Safari 4.1+, Chrome 3.0+, Firefox 3.6+ */
-    overflow: hidden;
+.textCarousel {
     width: 100%;
-    height: 100%;
-}
-
-/* DIV BACKGROUND */
-
-.backgroundDiv{
-    background-color: #464646;
-    padding-top: 90px;   
-}
-
-/* CAROUSEL TEXT */
-.textCarousel{
-    align-content: center;
-    align-items:center;
+    height: auto;
+    padding: 150px;
     text-align: center;
-    vertical-align: central;
 }
+
+.backgroundInformation {
+    background-color: #464646;
+    padding: 5px;
+    text-align: justify;
+    border-radius: 2px;
+}
+
+.titleInformation {
+    text-align: center;
+}
+
+.indicators {
+    display: block;
+}
+@media screen and (max-width: 900px) {
+    .textCarousel {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 600px) {
+    .textCarousel {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 300px) {
+    .textCarousel {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+    /* INITIAL NAV */
+
+    .bg {
+        /* The image used */
+        background-image: url("Content/banner3.jpg");
+        /* Full height */
+        height: 100%;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: cover; /* for IE9+, Safari 4.1+, Chrome 3.0+, Firefox 3.6+ */
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+    }
+
+    /* BACKGROUND BODY */
+
+    .backgroundBody {
+        background-color: #464646;
+    }
+
