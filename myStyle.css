@@ -1,22 +1,11 @@
-.body {
-    background-color: #464646;
-    width: 100%;
+body, html {
     height: 100%;
 }
 
 /* NAVBAR STYLE */
-.ColorNav {
-    background-color: none;
-}
-
-/* DECORATION */
-
-.borderSection {
-    
-    margin-top: 2px;
-    border-top: double;
-    border-color: gray;
-
+.positionStyle{
+    text-align: right;
+    color: #fff;
 }
 /* TITLE SECTION */
 
@@ -99,8 +88,38 @@
 
 /* INITIAL NAV */
 
-.initialDiv {
-    background-image: url(C:\Users\matte\Desktop\SimoneGabatel\Content\presentation.jpg)
+.bg {
+    /* The image used */
+    background-image: url("Content/banner3.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover; /* for IE9+, Safari 4.1+, Chrome 3.0+, Firefox 3.6+ */
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
 }
 
+/* INFORMATION CAROUSEL */
 
+.carousel-content {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.textCarousel {
+    width: 100%;
+    height: auto;
+    padding: 70px;
+    text-align: center;
+}
+
+/* BACKGROUND BODY */
+
+.backgroundBody {
+    background-color: #464646;
+}
