@@ -53,6 +53,26 @@ body, html {
     font-variant-position: inherit;
 }
 
+/* CARD POSITION */
+
+.paddingCard{
+    padding-top: 40px;
+}
+@media screen and (max-width: 900px) {
+   paddingCard{
+       padding-top:40px;
+   }
+}
+@media screen and (max-width: 600px) {
+    paddingCard {
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width: 300px) {
+    paddingCard {
+        padding-top: 20px;
+    }
+}
 
 /* FOOTER */
 
@@ -101,6 +121,7 @@ body, html {
     height: auto;
     padding: 150px;
     text-align: center;
+    font-size: medium;
 }
 
 .backgroundInformation {
@@ -123,6 +144,7 @@ body, html {
         height: auto;
         padding: 20px;
         text-align: center;
+        font-size: medium;
     }
 }
 @media screen and (max-width: 600px) {
@@ -131,6 +153,7 @@ body, html {
         height: auto;
         padding: 20px;
         text-align: center;
+        font-size: small;
     }
 }
 @media screen and (max-width: 300px) {
@@ -139,6 +162,7 @@ body, html {
         height: auto;
         padding: 20px;
         text-align: center;
+        font-size: x-small;
     }
 }
 

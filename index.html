@@ -19,14 +19,14 @@
     <link href="myStyle.css" rel="stylesheet" />
 </head>
 
-<body class="body backgroundBody">
+<body class="body backgroundBody" data-spy="scroll">
 
     <!-- START HEADER -->
     <!-- START NAVBAR -->
-    <div class="bg">
-        <nav class="navbar navbar-dark navbar-expand-lg positionStyle">
+    <div id="Home" class="bg">
+        <nav class="navbar navbar-dark navbar-expand-lg positionStyle fixed-top">
             <!-- Navbar brand -->
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#Home">Navbar</a>
             <!-- Hamburgher Buttons (for resize) -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -37,18 +37,17 @@
                 <!-- Links -->
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            Bio
-                        </a>
+                        <a class="nav-link" href="#Bio">
+                            Bio </a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="#"> I miei video </a>
+                        <a class="nav-link" href="#Videos"> I miei video </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"> Le mie foto </a>
+                        <a class="nav-link" href="#Photos"> Le mie foto </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#"> Progetti speciali </a>
+                        <a class="nav-link " href="#SpecialProjects"> Progetti speciali </a>
                     </li>
                 </ul>
             </div>
@@ -112,16 +111,10 @@
     <!-- END HEADER -->
     <!-- START CARDS -->
     <!-- TITLE -->
-    <div class="container-fluid title backgroundDiv">
-        <div>
-            <h2 class="descriptionTitle">MY WORKS</h2>
-            <br />
-            <br />
-            <p class="description">I miei lavori consistono in video che cerco di realizzare nel miglior modo possibile, seguendo anche quello che è il mio stile</p>
-        </div>
-        <br />
-        <br />
-        <br />
+    <div id="Videos" class="container-fluid title backgroundDiv"> 
+        <h2 class="descriptionTitle">
+        MY WORKS
+        </h2>
     </div>
     <!-- END TITLE -->
 
@@ -129,7 +122,7 @@
     <br />
     <br />
     <br />
-    <div class="container-fluid">
+    <div class="container-fluid paddingCard">
         <div class="card-deck">
 
             <!-- Start Card -->
@@ -231,9 +224,7 @@
         </div>
     </div>
     <br />
-    <br />
-    <br />
-    <br />
+   
     <!-- START COLLAPSE ELEMENT -->
     <div class="container-fluid">
         <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#dmo">Mostra altro</button>
@@ -341,29 +332,26 @@
     </div>
     <!-- END COLLAPSE ELEMENT -->
 
-    <br />
-    <br />
     <!-- START IMAGE CARD -->
     <br />
     <br />
     <br />
     <br />
-    <div>
-        <!-- TITLE -->
+   
+    <!-- TITLE -->
 
-        <div class="container-fluid title">
-            <div>
-                <h2 class="descriptionTitle borderTitle">LE MIE FOTO</h2>
-                <p class="description">Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.</p>
-            </div>
-        </div>
+    <div id="Photos" class="container-fluid title">
+       <h2 class="descriptionTitle borderTitle">
+        LE MIE FOTO
+       </h2>
     </div>
+   
     <!-- END TITLE -->
 
     <div class="container-fluid">
 
-        <!-- END TITLE -->
-        <div class="card-deck backgroundDiv">
+        <!-- START CARDS -->
+        <div class="card-deck backgroundDiv paddingCard">
 
             <!-- Start Card -->
             <div class="card mb-4">
@@ -466,91 +454,156 @@
             <!-- End Card -->
         </div>
     </div>
-    <!-- END IMAGE CARD -->
-    <!-- FOOTER -->
-
-    <footer class="page-footer font-small backgroundBody">
-
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3 copyrightText">
-            © 2018 Copyright by Simone Gabatel
-            <br />
-            <br />
-            <!-- Social Button -->
-            <div class="container-fluid">
-                <a href="https://www.instagram.com/just_gaabb/?hl=it">
-                    <i class="fab fa-instagram fa-2x socialIconStyle"></i>
-                </a>
-                <a href="https://www.facebook.com/simone.gabatel?fb_dtsg_ag=AdxsOezBGt-NGutLIATcJVR-MpHjCjFvpycmZL_vb0MzRw%3AAdzK1YW3IObwNmaXScb_aj_hvaz-hRl9GjuANGT8jC1-GQ">
-                    <i class="fab fa-facebook-f fa-2x socialIconStyle"></i>
-                </a>
-                <a href="https://www.youtube.com/channel/UC2XkGvAXiXAhJ80k-uocR_w">
-                    <i class="fab fa-youtube fa-2x socialIconStyle"></i>
-                </a>
-            </div>
-        </div>
-        <!-- Copyright -->
-        <br />
-        <br />
-        <br />
-        <br />
-        <div class="container-fluid">
-            <p class="poweredText">
-                Powered by:
-                <a style="color: white" href="https://www.instagram.com/matt.rar/?hl=it">Matteo Pizzinato,</a>
-                <a style="color: white" href="https://www.linkedin.com/in/alessio-dal-santo-258498162/">Alessio Dal Santo.</a>
-                Consigli grafici di
-                <a style="color: white" href="https://www.instagram.com/staccatop5.js/?hl=it">Nicoletta Piccolo</a>
-            </p>
-        </div>
-    </footer>
-    <!-- END FOOTER -->
-
-    <div id="dioCanaglia" class="carousel slide" data-ride="carousel">
-        <ul class="carousel-indicators">
-            <li data-target="#dioCanaglia" data-slide-to="0" class="active"></li>
-            <li data-target="#dioCanaglia" data-slide-to="1"></li>
-            <li data-target="#dioCanaglia" data-slide-to="2"></li>
-        </ul>
-        <div class="carousel-inner img">
-            <div class="carousel-item active imgCarousel">
-                <img src="C:\Users\matte\Desktop\SimoneGabatel\Content\banner.jpg">
-                <div class="carousel-caption">
-                    <h3>Los Angeles</h3>
-                    <p>We had such a great time in LA!</p>
-                </div>
-            </div>
-            <div class="carousel-item imgCarousel">
-                <img src="C:\Users\matte\Desktop\SimoneGabatel\Content\banner.jpg">
-                <div class="carousel-caption divInformation">
-                    <h3>Chicago</h3>
-                    <p>Thank you, Chicago!</p>
-                </div>
-            </div>
-            <div class="carousel-item imgCarousel">
-                <img class="imgCarousel" src="C:\Users\matte\Desktop\SimoneGabatel\Content\banner.jpg">
-                <div class="carousel-caption">
-                    <h3>New York</h3>
-                    <p>We love the Big Apple!</p>
-                </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#dioCanaglia" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#dioCanaglia" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
-    </div>
-
-    <!-- COLLAPSE -->
-
+    <br />
+    <!-- START COLLAPSE -->
     <div class="container-fluid">
-        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#dmo">Simple collapsible</button>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#dmo">Mostra altro</button>
         <div id="dmo" class="container-fluid collapse">
-            <img src="C:\Users\matte\Desktop\SimoneGabatel\Content\banner.jpg" style="width: 200px; height:auto">
+            <div class="card-deck backgroundDiv">
+
+                <!-- Start Card -->
+                <div class="card mb-4">
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/14.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">Card title</h4>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Info
+                            </button>
+                            <div class="dropdown-menu container-fluid " aria-labelledby="dropdownMenuButton">
+                                <p class="infoCard">
+                                    Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh
+                                    onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Card -->
+                <!-- Start Card -->
+                <div class="card mb-4">
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/15.jpg" alt="Card image cap">
+                    </div>
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">Card title</h4>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Info
+                            </button>
+                            <div class="dropdown-menu container-fluid " aria-labelledby="dropdownMenuButton">
+                                <p class="infoCard">
+                                    Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh
+                                    onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Card -->
+                <!-- Start Card -->
+                <div class="card mb-4">
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/15.jpg" alt="Card image cap">
+                    </div>
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">Card title</h4>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Info
+                            </button>
+                            <div class="dropdown-menu container-fluid" aria-labelledby="dropdownMenuButton">
+                                <p class="infoCard">
+                                    Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh
+                                    onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Card -->
+                <!-- Start Card -->
+                <div class="card mb-4">
+                    <!--Card image-->
+                    <div class="view overlay">
+                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/15.jpg" alt="Card image cap">
+                    </div>
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">Card title</h4>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Info
+                            </button>
+                            <div class="dropdown-menu container-fluid" aria-labelledby="dropdownMenuButton">
+                                <p class="infoCard">
+                                    Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh
+                                    onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Card -->
+            </div>
         </div>
-    </div>
+            </div>
+      <!-- END COLLPASE -->
+            <!-- END IMAGE CARD -->
+            <!-- FOOTER -->
+
+            <footer class="page-footer font-small backgroundBody">
+
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3 copyrightText">
+                    © 2018 Copyright by Simone Gabatel
+                    <br />
+                    <br />
+                    <!-- Social Button -->
+                    <div class="container-fluid">
+                        <a href="https://www.instagram.com/just_gaabb/?hl=it">
+                            <i class="fab fa-instagram fa-2x socialIconStyle"></i>
+                        </a>
+                        <a href="https://www.facebook.com/simone.gabatel?fb_dtsg_ag=AdxsOezBGt-NGutLIATcJVR-MpHjCjFvpycmZL_vb0MzRw%3AAdzK1YW3IObwNmaXScb_aj_hvaz-hRl9GjuANGT8jC1-GQ">
+                            <i class="fab fa-facebook-f fa-2x socialIconStyle"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UC2XkGvAXiXAhJ80k-uocR_w">
+                            <i class="fab fa-youtube fa-2x socialIconStyle"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Copyright -->
+                <br />
+                <br />
+                <br />
+                <br />
+                <div class="container-fluid">
+                    <p class="poweredText">
+                        Powered by:
+                        <a style="color: white" href="https://www.instagram.com/matt.rar/?hl=it">Matteo Pizzinato,</a>
+                        <a style="color: white" href="https://www.linkedin.com/in/alessio-dal-santo-258498162/">Alessio Dal Santo.</a>
+                        Consigli grafici di
+                        <a style="color: white" href="https://www.instagram.com/staccatop5.js/?hl=it">Nicoletta Piccolo</a>
+                    </p>
+                </div>
+            </footer>
+            <!-- END FOOTER -->
+            
 
 </body>
 </html>
