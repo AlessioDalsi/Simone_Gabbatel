@@ -110,6 +110,10 @@ body, html {
 }
 /* INFORMATION CAROUSEL */
 
+.paddingDivCarousel{
+    padding-top: 700px;
+}
+
 .carousel-content {
     color: white;
     display: flex;
