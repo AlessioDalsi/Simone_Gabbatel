@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Content"
+    "\\Content",
+    "\\Content\\3_LinePhotos",
+    "\\Content\\7_LinePhotos",
+    "\\Content\\8_LinePhotos"
   ],
-  "SelectedNode": "\\myStyle.css",
+  "SelectedNode": "\\Content\\7_LinePhotos\\mik3.JPG",
   "PreviewInSolutionExplorer": false
 }
